@@ -16,7 +16,7 @@
   flex-direction: column;
   justify-content: center;
   height: 100vh;
-  margin: 70px;
+  margin: 50px;
 }
 
 input {
@@ -29,7 +29,7 @@ input {
 h3 {
   color: rgb(224, 51, 51);
 }
-h1 {
+h1 {margin-top: 100px;
   color: rgb(235, 208, 0);
 }
 
