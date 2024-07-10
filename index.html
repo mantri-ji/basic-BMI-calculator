@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <title>BMI CALCULATOR</title>
+  </head>
+  <body>
+    <div class="main-container">
+      
+      <h1>Calculate your Body-Mass Index (BMI)</h1>
+      <div>
+        <div>
+          <h3>Enter your Weight</h3>
+          <input type="number" id="parameter1" placeholder="kilograms" />
+        </div>
+        <div>
+          <h3>Enter your Height</h3>
+          <input type="number" id="parameter2" placeholder="centimeters" />
+        </div>
+
+        <br /><br />
+        <button type="button" id="calculateButton">Calculate</button>
+      </div>
+      <div class="output-container">
+        <output id="output" type="number" placeholder="Your BMI"></output>
+      </div>
+      <div class="bmi-chart">
+        <img alt="bmi-chart" src="https://dims.healthgrades.com/dims3/MMH/957aa1d/2147483647/strip/true/crop/1024x724+0+0/resize/800x566!/format/webp/quality/75/?url=https%3A%2F%2Fucmscdn.healthgrades.com%2F16%2Fd5%2F03f46296c7f3d8117f006ce6f7ab%2F404872-obesity-classes-infographic-1296x916-body-1024x724.jpg">
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="index.js"></script>
+</html>
